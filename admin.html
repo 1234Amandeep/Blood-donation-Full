@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Admin</title>
+        <link rel="stylesheet" href="CSS/admin.css">
+    </head>
+    <body class="back" background="img/registerlogo.jpg">
+        <div id="container">
+            <form action="login" method="post" id="flogin">
+                <a href="login.html">
+                    <img src="img/login.png">
+                </a>
+                <div class="border-box">
+                    <h1>Login</h1>
+                    <label for="u_name" id="un">UserName</label>
+                    <input type="text" name="user" Placeholder="UserName" id="u_name"><br>
+
+                    <label for="passwd" id="ps">Password</label>
+                    <input type="password" name="paswd" placeholder="Password" id="passwd"><br>
+
+                    <button type="submit" value="Login" id="submit" onclick="alert('Login Successfully')">Login</button>
+                    <a class="register" href="register.html"> Create an Account</a>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

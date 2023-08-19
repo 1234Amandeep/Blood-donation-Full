@@ -1,61 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <!-- <h1>Blood donation form</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saverz.in</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./CSS/form.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+
+    <div class="hero">
+        <nav>
+            <li><a href=""style="color:maroon;"><img src="img/logo.png" class="logo"></a></li>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bloodgrp.html">Blood Donation</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="hospital.html">Hospitals</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+            <!-- <a href="admin.html" class="btn">admin</a> -->
+        </nav>
+        <marquee width="100%" direction="right" height="50px" style="color: maroon;"><b>
+DO BLOOD DONATION <br>Every blood donor is a HERO
+        <b></marquee>
+
+            <div class="row">
+                <div class="col-1">
+                    <img src="img/donate.jpg">
+                </div>
+                <div class="col-2">
+                    <h1 style="color: maroon;">Provide healthcare, emergency and humanitarian 
+                  services.</h1><br>
+
+                    <p style="color: midnightblue;"><b>In India every year nearly 500000
+  people die because of non-availibility of Organs and their number is expected to grow
+ due to scarcity of organ donor. Every day blood and organ is required in hospitals and 
+emergency treatment facilities for patients with Cancer, Thalassmia and diseases, for organ
+ transplant recipients, and to help save the lives of accident and trouma victims.</b></p><br>
+
+                    <p style="color: midnightblue;"> <b>In India many people are loding their
+ lives evey day in emergency situations because we are sufferign from lack of blood & organ
+ in blood and organ Banks, and they do not receibe the blood and organ timely.</b></p>
+                </div>
+            </div>
+         <div class="row">
+            <div class="col-1">
+                <img src="img/image.jpg">
+            </div>
+            <div class="col-2">
+       <h1 style="color: maroon;"> BLOOD DONATION <br> Each day, thousands of people 
+need donated blood and bood products to keep then in good health or allow them to stay
+ alive <br></h1>
+
+       <p style="color: midnightblue;"><b>Donating whole blood can help these people.
+ <br> If a person's blood levels fail due to an accident or illness, or their blood is 
+not functioning properly, there will not be enough oxygen or other nutrients
+ to maintain their vital organs.</b></p><br>
+
+       <p style="color: midnightblue;"><b>Giving blood can be a life saving action,
+ but it may also gave benefits for the donor</b></p><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <img src="img/donation.jpg">
+            </div>
+            <div class="col-2">
+                <h1 style="color: maroon;">ORGAN & TISSUE <br>Donating is giving of
+ an organ and tissue to help someone that need a transplant.</h1><br>
+
+                <p style="color: midnightblue;"><b>Transplant can save or transform 
+the life of a person. One organ and tissue donor can help transform the
+ lives of more than 10 people. This relies on donors and their families 
+agreeing to donate their organ and tissue after death.</b></p><br>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <img src="img/blood donate.jpeg"><br>
+               
+            </div>
+            <div class="col-2">
+                <h1 style="color: maroon;">BLOOD DONOR<br>Who can became an blood donor? <br>
+Blood donation and eligibility</h1><br>
+
+            <p style="color: midnightblue;"><b>you are aged between 18 to 65.
+<br>You weight at least 50 kg. <br>You must be in good health at the tome you donate.
+<br>Travel to areas where mosquito-borne infection are endemic, e.g. maleria,
+ dengue and Zika virus infections, may result in a temperary deferral.<br></b></p><br>
+        </div>
+    </div>
+        <div class="row">
+            <div class="col-1">
+                <img src="img/organ doner.jpg"><br>
+            </div>
+            <div class="col-2">
+             <h1 style="color: maroon;">ORGAN DONOR <br>Who can became an organ donor?  <br>
+Blood donation and eligibility</h1><br>   
+
+            <p style="color: midnightblue;"><b>Anyone can register a decision
+ to become an organ donor after death, there is no age limit. 
+<br><br>To donate organs after death, a person needs to die in hospital
+ in specific circumstances. <br><br>Specialists healthcare professionals 
+decide in each individual case whether a person's organ and 
+tissue are suitable for donation. <br><br>For more information about
+ eligibility for organ donation after death, please select category below. <br></b></p><br>
+            </div>
+        </div>
+    </div>
+
+    
     <form id="form">
-      <label for="name">Name: </label>
-      <input type="text" id="name" required />
-      <br /><br />
-      <label for="email">Email: </label>
-      <input type="email" id="email" required />
-      <br /><br />
-      <label for="blood-group">Blood:</label>
-      <input type="text" id="blood-group" required />
-      <br /><br />
-      <button type="submit">Submit</button>
-    </form> -->
+        <h1 id="h1">Blood donation form</h1>
+        <br><br>
+        <label for="name">Name :</label>
+        <input type="text" required id="name">
+        <br><br>
+        <label for="email">Email :</label>
+        <input type="text" required id="email">
+        <br><br>
+        <label for="blood-group">Blood :</label>
+        <input type="text" required id="blood-group">
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <br><br>
 
-    <div class="container">
-      <div class="text">
-        Blood Donation 
-      </div>
-      <form id="form">
-         <div class="form-row">
-            <div class="input-data">
-               <input type="text" required id="name">
-               <div class="underline"></div>
-               <label for="name">Full Name</label>
-            </div>
-            
-         </div>
-         <div class="form-row">
-            <div class="input-data">
-               <input type="text" required id="email">
-               <div class="underline"></div>
-               <label for="email">Email Address</label>
-            </div>
-            <br>
-            <div class="input-data">
-               <input type="text" id="blood-group" required>
-               <div class="underline"></div>
-               <label for="blood-group">Blood Group</label>
-            </div>
-         </div>
-         <div class="form-row">
-         <button type="submit" class="btn" >Submit</button>
-            
+        <div class="copyright">
+        <p>copyright &copy; 2022, Company <span>SAVERZ</span> Pvt Ltd.</p>
+    </div>
 
-      </form>
-      </div>
-
-
-
+    <!-- javascript -->
     <script src="form.js"></script>
-  </body>
+</body>
 </html>

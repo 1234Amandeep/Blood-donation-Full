@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="CSS/register.css">
+    </head>
+    <body class="back" background="img/registerlogo.jpg">
+        <a href="login.html">
+            <img src="img/logoregister.png">
+        </a>
+        <form>
+            <h1>Registration</h1>
+
+            <label for="r1" id="f_n">First Name</label>
+            <input type="text" name="fname" id="r1" placeholder="FirstName"><br>
+            <!-- <small>Error Message</small><br> -->
+
+            <label for="r2" id="l_n">Last Name</label>
+            <input type="text" name="lname" id="r2" placeholder="LastName"><br>
+            <!-- <small>Error Message</small> -->
+
+            <label for="r4" id="p_n">Phone No </label>
+            <input type="text" name="pno" id="r4" placeholder="10 characters" ><br>
+            <!-- <small>Error Message</small> -->
+
+            <label for="r3" id="u_i">User ID</label>
+            <input type="text" name="uid" id="r3" placeholder="Email ID or UserName"><br>
+            <!-- <small>Error Message</small> -->
+
+            <label for="r5" id="pass">Password</label>
+            <input type="password" name="passwd" id="r5" placeholder="8 characters"><br>
+            <!-- <small>Error message</small> -->
+
+            <label for="r6" id="re_pass">Repassword</label>
+            <input type="password" name="repss" id="r6" placeholder="Repassword"><br>
+            <!-- <small>Error message</small><br> -->
+            
+            <a href="admin.html">
+                <button type="button" value="submit"> Login </button>
+            </a>
+            <button type="submit" value="submit"  id="button" onclick="alert(' Your Registration is Successfully')">Register</button>
+        
+        </form>
+
+    </body>
+</html>

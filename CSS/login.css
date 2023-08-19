@@ -1,0 +1,30 @@
+.container{
+    margin-top: 3%;
+    margin-left: 20%;
+}
+.card-body{
+    padding: 20px;
+    margin-top: 5px;
+    background-image: linear-gradient(violet, white);
+}
+.mb-3{
+    margin-top: 20px;
+    padding: 3px;
+}
+p{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 10px;
+}
+.card-title{
+    text-align: center;
+    font-size: 25px;
+}
+.btn{
+    margin: auto;
+    display: block;
+    padding: 10px 30px 10px 30px;
+    font-size: 18px;
+}
