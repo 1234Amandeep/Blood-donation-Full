@@ -1,7 +1,54 @@
-#h1 {
-  text-align: center;
+.form-wrap {
+  width: 400px;
+  background: #3e3d3d;
+  padding: 30px 50px 40px 50px;
+  box-sizing: border-box;
+  margin: 0 auto;
 }
 
-#form {
+h1 {
   text-align: center;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 35px;
+}
+
+input {
+  width: 100%;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 6px 15px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #fff;
+}
+
+input[type="button"] {
+  background: #bac675;
+  border: 0;
+  cursor: pointer;
+  color: #3e3d3d;
+}
+input[type="button"]:hover {
+  background: #a4b15c;
+  transition: 0.6s;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+#btn {
+  width: 100px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
 }
