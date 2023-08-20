@@ -36,7 +36,10 @@ const sendFormData = async (reqDataPacket) => {
   };
 
   // posting data
-  const response = await fetch("http://localhost:4000/form", data);
+  const response = await fetch(
+    "https://blood-donation-full-api.onrender.com/",
+    data
+  );
 
   const jsonRes = await response.json();
 
